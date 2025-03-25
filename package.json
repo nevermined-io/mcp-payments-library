@@ -1,7 +1,7 @@
 {
-  "name": "@nevermined-io/mcp-library",
+  "name": "@nevermined-io/mcp-payments-library",
   "version": "1.0.0",
-  "description": "Nevermined library for MCP servers",
+  "description": "Nevermined paymetns library for MCP servers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,7 +16,7 @@
     "library"
   ],
   "author": "Nevermined",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "dependencies": {
     "@nevermined-io/payments": "^0.9.3"
   },
