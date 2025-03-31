@@ -1,13 +1,26 @@
 {
   "name": "@nevermined-io/mcp-payments-library",
   "version": "1.0.0",
-  "description": "Nevermined paymetns library for MCP servers",
+  "description": "Nevermined payments library for MCP servers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevermined-io/mcp-payments-library.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "nevermined",
